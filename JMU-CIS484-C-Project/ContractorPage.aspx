@@ -1,5 +1,5 @@
-﻿<%@ Page Title="Contractor" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="ContractorPage.aspx.cs" Inherits="ContractorPage" %>
-<%@ MasterType VirtualPath="~/MasterPage.master" %>
+﻿<%@ Page Title="Contractor" Language="C#" MasterPageFile="MasterPage.master" AutoEventWireup="true" CodeFile="ContractorPage.aspx.cs" Inherits="ContractorPage" %>
+<%@ MasterType VirtualPath="MasterPage.master" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <!--

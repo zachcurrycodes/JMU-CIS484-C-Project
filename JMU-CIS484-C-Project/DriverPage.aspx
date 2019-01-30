@@ -1,5 +1,5 @@
-﻿<%@ Page Title="Driver" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="DriverPage.aspx.cs" Inherits="DriverPage" %>
-<%@ MasterType VirtualPath="~/MasterPage.master" %>
+﻿<%@ Page Title="Driver" Language="C#" MasterPageFile="MasterPage.master" AutoEventWireup="true" CodeFile="DriverPage.aspx.cs" Inherits="DriverPage" %>
+<%@ MasterType VirtualPath="MasterPage.master" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <!--

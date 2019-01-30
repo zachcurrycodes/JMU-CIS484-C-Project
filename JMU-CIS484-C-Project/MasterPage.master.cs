@@ -16,6 +16,7 @@ this academic work
 */
 
 public partial class MasterPage : System.Web.UI.MasterPage {
+
     System.Data.SqlClient.SqlConnection sc = new System.Data.SqlClient.SqlConnection();
     SqlCommand myCommand = new SqlCommand();
     SqlDataReader myReader = null;
@@ -274,7 +275,7 @@ public partial class MasterPage : System.Web.UI.MasterPage {
 
         }
         catch (Exception) {
-            tbMDisplayData.Text = "Error Connecting to Database";
+            tbMDisplayData.Text = "Error Connecting to Database: " + sqlQuery;
         }
     }
 
